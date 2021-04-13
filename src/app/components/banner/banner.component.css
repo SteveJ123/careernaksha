@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.banner-container{
+    height: 658.9600219726562px;
+    width: 1366px;    
+    border-radius: 0px;
+    margin-top: 16.7px;
+    
+
+background: linear-gradient(0.71deg, #FFFFFF -193.8%, #C9E6FF 464.4%);
+}
+
+.banner-text-container{
+    
+}
+
+.want-to-earn-with-us{
+    /* Want To Earn With Us ? */
+width: 685px;
+height: 58px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 58px;
+margin-left: 82px;
+/* margin-top: 191px; ------------------------------*/
+/* identical to box height, or 116% */
+letter-spacing: 0.01em;
+color: #000000;
+}
+
+.become-our-partner{
+    /* Become Our Partner */
+
+width: 685px;
+height: 58px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 58px;
+margin-left: 133px;
+/* identical to box height, or 116% */
+letter-spacing: 0.01em;
+
+color: #000000;
+
+}
+
+.earn-profit{
+    /* Earn profits from our experience & help build awesome careers of students & graduates */
+
+
+width: 411px;
+height: 50px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+text-align: center;
+
+margin-left: 160px;
+
+color: #000000;
+}
+
+.referral-container{
+    display: flex;
+    margin-left: 135px;    
+    margin-top: 21px;
+}
+
+.earn-container{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 4px;
+}
+
+.referral, .earn{
+    /* Upto 30% commissions for every successful referral */
+width: 274px;
+height: 50px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+
+margin-left: 25px;
+/* or 156% */
+
+color: #000000;
+}
+
+.banner-button-container{
+    margin-top: 23px;
+    margin-left: 212px;
+    margin-bottom: 83.7px;
+}
+
+.our-works{
+    /* Rectangle 542 */
+
+width: 140px;
+height: 48px;
+
+background: #62D7A4;
+border-radius: 5px;
+
+}
+
+.know-more{
+    /* Rectangle 511 */
+
+/* Rectangle 543 */
+
+
+width: 140px;
+height: 48px;
+
+border: 1px solid #62D7A4;
+box-sizing: border-box;
+border-radius: 5px;
+
+margin-left: 35px;
+
+
+}

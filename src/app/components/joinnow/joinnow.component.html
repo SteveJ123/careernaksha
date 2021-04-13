@@ -1,0 +1,80 @@
+<div class="join-now-container">
+
+    <p class="join-now-text">Join Now</p>
+    
+    <div>
+        <form class="join-now-form" [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+            <div class="d-flex">
+                <div>
+                    <label>
+                        First Name:
+                      </label> <br>
+                        <input type="text" placeholder="Rober Lee" formControlName="firstName">
+                </div>
+                
+                <div>
+                    <label>
+                        Last Name:
+                      </label> <br>
+                        <input type="text" placeholder="Rober Lee" formControlName="lastName">
+                  </div>
+                
+                  
+            </div>
+
+            <div class="email">
+                <label class="email-label">
+                    Your Email Address:
+                  </label> <br>
+                    <input type="email" placeholder="kevin.jones@mail.com" formControlName="email" class="email-text">
+            </div>
+
+            <div class="city">
+                <label class="city-label">
+                    City:
+                  </label> <br>
+                  <select class="select-city" formControlName="city">
+                    <option disabled>selectOne</option>
+                    <option>selectOne</option>
+                    <option *ngFor="let suit of selectOne">{{suit}}</option>
+                  </select>
+            </div>
+
+            <div class="message">
+                <label class="message-label">
+                    Type Your Message:
+                  </label> <br>
+                    <!-- <input type="text" placeholder="lorem" formControlName="message"> -->
+                    <textarea name="" id="" class="message-text" placeholder="lorem" formControlName="message" cols="" rows="">
+
+                    </textarea>
+            </div>
+
+            <button class="submit"><span class="submit-text">Join Now</span></button>
+            
+            
+          
+          </form>
+    </div>  
+
+</div>
+
+<div class="footer d-flex">
+    <div class="col-lg-6">
+        <p class="footer-text-first">Any Questions ?</p>
+        <p class="footer-text-second">Ask Us</p>
+
+        <div class="mobile d-flex">
+            <div class="mobile-icon">icon</div>
+            <div class="mobile-text">Call at +91-84691-49288   </div>
+        </div>
+        <p class="footer-text">Or</p>
+        <div class="whatsapp d-flex">
+            <div class="whatsapp-icon">icon</div>
+            <div class="whatsapp-text">WhatsApp at +91-84691-49288    </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        
+    </div>
+</div>

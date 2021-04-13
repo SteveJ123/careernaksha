@@ -1,0 +1,14 @@
+.logo-contanier{
+    margin-left: 585px;
+    margin-top: 14px;
+}
+
+.logo{
+width: 196px;
+height: 107px;
+
+background-color: blue;
+
+/* background: url(logo (1).png); */
+transform: rotate(180deg);
+}

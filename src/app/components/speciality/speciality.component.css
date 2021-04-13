@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.what-is{
+    /* What is the */
+
+
+width: 216px;
+height: 58px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 58px;
+margin-top: 40.81px;
+margin-left: 579px;
+/* identical to box height, or 161% */
+
+color: #000000;
+
+
+}
+
+.speciality-of-us{
+    /* Speciality Of Us? */
+
+
+width: 314px;
+height: 58px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 58px;
+margin-left: 533px;
+/* identical to box height, or 161% */
+
+color: #000000;
+
+
+}
+
+.speciality-card-container{
+    margin-top: 33px;
+}
+
+.card{
+    /* Rectangle 539 */
+
+width: 350px;
+height: 440px;
+margin-left: 30px;
+
+background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.2);
+
+}
+
+.card-first{
+    margin-left: 128px;
+}
+
+.card-img{
+    /* Rectangle 539 */
+
+    height: 152.8569583129883px;
+    width: 161.25498962402344px;
+    border-radius: 0px;
+    margin-top: 45.52px;
+    margin-left: 94px;
+    
+
+}
+
+.card-text-first{
+    
+width: 92px;
+height: 41px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 58px;
+margin-left: 130px;
+
+/* or 242% */
+
+
+color: #000000;
+}
+
+.card-text-second{
+    
+width: 227px;
+height: 182px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+margin-left: 64px;
+/* or 150% */
+
+text-align: center;
+
+color: #000000;
+
+}
